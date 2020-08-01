@@ -1,0 +1,48 @@
+/* default page style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* default body style */
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* styles for the <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/* style for h1 inside <header> */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/* style for anchor elements in the header */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/* style for <nav> elements in the header */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
