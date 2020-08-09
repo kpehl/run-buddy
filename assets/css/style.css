@@ -292,6 +292,19 @@ section {
 }
 /* Trainers Style End */
 
+/* Service Plans Style Start */
+.service-grid-container {
+    display: grid;
+}
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+/*Service Plans Style End */
+
 /* Reach Out Style Start */
 .contact {
     background: #024e76;
